@@ -23,9 +23,9 @@ export const eliminarInmueble = async (data) => {
             throw error.response.data.error || "Error procesando la solicitud"
         })
 }
-export const modificarInmueble = async (data) => {
-    let url = `/api/inmuebles/modificar/${data.id}`;
-    return await API.put(url, data)
+export const modificarInmueble = async (data, config) => {
+    let url = "/api/inmuebles/modificar";
+    return await API.put(url, data, config)
         .then((response) => {
             return response.data;
         })
