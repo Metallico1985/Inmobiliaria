@@ -1,4 +1,4 @@
-import "./formModificar.css";
+import "./FormModificar.css";
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { modificarInmueble } from '../../API/Rule_inmuebles'
