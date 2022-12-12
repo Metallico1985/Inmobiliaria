@@ -2,13 +2,9 @@ import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { iniciarSesion } from '../../API/Rule_auth'
-
-
-
 import './Login.css'
 
 function Login() {
-
 
     const [email, setEmail] = useState("");
     const [password, setPass] = useState("");
@@ -20,12 +16,14 @@ function Login() {
 
 
     const handleSubmit = async (e) => {
+
         e.preventDefault();
 
         const credenciales = { email: email, password: password };
         await iniciarSesion(credenciales)
             .then(() => {
                 alert("Logueado correctamente")
+
                 navigate("/main");
             })
             .catch((error) => {

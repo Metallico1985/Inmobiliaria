@@ -4,9 +4,8 @@ import Header from "../Header/Header";
 import Searchbar from "../Searchbar/Searchbar";
 import Footer from "../Footer/Footer";
 import { listarInmuebles } from "../../API/Rule_inmuebles";
-import "./Main.css";
 import { Link } from "react-router-dom";
-
+import { Backdrop, CircularProgress } from '@mui/material'
 import "./Main.css";
 
 function Main() {
@@ -16,22 +15,31 @@ function Main() {
 
   const [propiedades, setPropiedades] = useState([]);
   const listaFiltrada = (lista) => { setPropiedades(lista) }
+  const [open, setOpen] = useState(true);
+
+  const handleOpen = () => { setOpen() }
 
   const traerPropiedades = async () => {
     await listarInmuebles()
       .then((response) => {
         setPropiedades(response);
+        handleOpen(false)
       })
       .catch((error) => {
         alert(error);
       });
   };
 
-
-
   return (
     <div className="mainContainer">
       <Header />
+      <Backdrop
+        sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={open}
+      // onClick={handleClose}
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop>
       <Searchbar listaFiltrada={listaFiltrada} />
       {!propiedades.length ? <div><h2 className="explora">Por el momento no contamos con propiedades que cumplan estos requisitos...</h2></div> :
         <>

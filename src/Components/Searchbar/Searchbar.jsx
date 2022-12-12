@@ -9,7 +9,6 @@ function Searchbar(props) {
   const [tipo, setTipo] = useState("");
   const [dormitorios, setDormitorios] = useState("");
   const [departamento, setDepto] = useState("");
-  // const [listaFiltrada, setListaFiltrada] = useState([])
 
   const handleOperacion = (e) => { setOperacion(e.target.value) };
   const hanldeTipo = (e) => { setTipo(e.target.value) };
@@ -22,7 +21,6 @@ function Searchbar(props) {
     await aplicarFiltros(datos)
       .then((response) => {
         props.listaFiltrada(response)
-        // alert("Aplicados correctamente")
       })
       .catch((error) => {
         alert(error);
@@ -56,7 +54,7 @@ function Searchbar(props) {
               </select>
             </div>
           </li>
-          {tipo == "oficina" || tipo == "terreno" || tipo == "localComercial" || tipo == "localIndustrial" ? <></> : <li class="searchbarItem">
+          {tipo == "Oficina" || tipo == "Terreno" || tipo == "LocalComercial" || tipo == "LocalIndustrial" ? <></> : <li class="searchbarItem">
             <div class="filterArea">
               <select onChange={handleDormitorios} name="Dormitorios">
                 <option value="">Dormitorios</option>
