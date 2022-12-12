@@ -1,0 +1,45 @@
+.home {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 105%;
+    z-index: -2;
+}
+
+.indexBtn {
+    border-radius: 1rem;
+    border: none;
+    padding: 0.5rem 2rem;
+    color: red;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.indexBtn:hover {
+    color: azure;
+    background-color: red;
+    box-shadow: rgb(9, 9, 9) 0px 20px 30px -10px;
+    transform: scale(1.5)
+}
+
+h1 {
+    color: azure;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+img {
+    width: 30%;
+    margin-top: 2rem;
+}

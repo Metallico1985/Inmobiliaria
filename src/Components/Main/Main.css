@@ -1,0 +1,50 @@
+.flexGridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridContainer {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.mainContainer {
+  background-color: buttonface;
+}
+
+.mainContainer h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+
+}
+
+.mainContainer a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.mainContainer a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.mainContainer a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.mainContainer a:link {
+  text-decoration: none;
+}
+
+.explora {
+  text-align: center;
+}

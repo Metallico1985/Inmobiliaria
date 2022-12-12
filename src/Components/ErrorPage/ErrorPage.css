@@ -1,0 +1,29 @@
+#errorPage {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.imageLogo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+  z-index: 1;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.image2 {
+  position: absolute;
+  top: 60vh;
+  left: 200px;
+  width: 200px;
+}
