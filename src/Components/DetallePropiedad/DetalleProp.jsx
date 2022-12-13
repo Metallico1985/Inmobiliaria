@@ -2,12 +2,12 @@ import "./DetalleProp.css";
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { listarInmuebles } from "../../API/Rule_inmuebles";
-import { FaBed } from "react-icons/fa";
+// import { FaBed } from "react-icons/fa";
 // import { BiDollarCircle } from "react-icons/Bi";
-import { RxRulerSquare } from "react-icons/Rx";
-import { IconContext } from "react-icons";
-import { RxDoubleArrowLeft } from "react-icons/Rx";
-import { RxDoubleArrowRight } from "react-icons/Rx";
+// import { RxRulerSquare } from "react-icons/Rx";
+// import { IconContext } from "react-icons";
+// import { RxDoubleArrowLeft } from "react-icons/Rx";
+// import { RxDoubleArrowRight } from "react-icons/Rx";
 
 function DetalleProp() {
   const { id } = useParams();
@@ -67,20 +67,20 @@ function DetalleProp() {
       {inmueble ? (
         <div className="cardDetalle">
           <div className="cardImgContainer">
-            <IconContext.Provider value={{ color: "black", size: "30px" }}>
+            {/* <IconContext.Provider value={{ color: "black", size: "30px" }}>
               <RxDoubleArrowLeft onClick={moveLeft} />
-            </IconContext.Provider>
+            </IconContext.Provider> */}
             <img
               className="cardImg"
               src={`http://localhost:8000/api/inmuebles/imagenPropiedad/${inmueble.id_inmueble}`}
               alt=""
             />
-            <IconContext.Provider
+            {/* <IconContext.Provider
               value={{ color: "black", size: "30px" }}
               onClick={moveRight}
             >
               <RxDoubleArrowRight onClick={moveRight} />
-            </IconContext.Provider>
+            </IconContext.Provider> */}
           </div>
           <div class="textFlex">
             <div className="operacionYref">
@@ -102,22 +102,22 @@ function DetalleProp() {
             </div>
             <div class="cardBottom">
               {inmueble.tipo_inmueble == "Oficina" || inmueble.tipo_inmueble == "LocalComercial" || inmueble.tipo_inmueble == "LocalIndustrial" ? <></> : <div className="desc">
-                <IconContext.Provider value={{ color: "gray", size: "30px" }}>
+                {/* <IconContext.Provider value={{ color: "gray", size: "30px" }}>
                   <FaBed />
-                </IconContext.Provider>
+                </IconContext.Provider> */}
                 <p class="cardText">{inmueble.dormitorios}</p>
               </div>}
 
               <div className="desc">
-                <IconContext.Provider value={{ color: "gray", size: "30px" }}>
+                {/* <IconContext.Provider value={{ color: "gray", size: "30px" }}>
                   <RxRulerSquare />
-                </IconContext.Provider>
+                </IconContext.Provider> */}
                 <p class="cardText">{inmueble.m2 + ` mts2`}</p>
               </div>
               <div className="desc1">
-                <IconContext.Provider value={{ color: "gray", size: "30px" }}>
+                {/* <IconContext.Provider value={{ color: "gray", size: "30px" }}>
                   <BiDollarCircle />
-                </IconContext.Provider>
+                </IconContext.Provider> */}
                 <p className="cardPrice">{inmueble.precio}</p>
               </div>
             </div>
