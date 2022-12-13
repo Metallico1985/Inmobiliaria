@@ -26,6 +26,7 @@ function Main() {
         handleOpen(false)
       })
       .catch((error) => {
+        handleOpen(false)
         alert(error);
       });
   };
