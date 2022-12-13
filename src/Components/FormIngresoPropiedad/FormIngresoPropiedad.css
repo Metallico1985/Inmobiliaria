@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('./Images/aereaCasas.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/public/Images/aereaCasas.jpg');
   background-position: center;
   background-repeat: none;
   background-size: cover;
