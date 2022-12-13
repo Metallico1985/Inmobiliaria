@@ -39,7 +39,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/registro",
-    element: <ProtectedRoute><FormRegistro /></ProtectedRoute>,
+    element: <FormRegistro />,
   },
   {
     path: "/login",
