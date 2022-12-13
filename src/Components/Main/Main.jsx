@@ -53,7 +53,7 @@ function Main() {
                     {console.log(inmueble.id_inmueble)}
                     <Card
                       metros={inmueble.m2}
-                      image={`http://localhost:8000/api/inmuebles/imagenPropiedad/${inmueble.id_inmueble}`}
+                      image={`https://back-inmobiliaria.vercel.app/api/inmuebles/imagenPropiedad/${inmueble.id_inmueble}`}
                       barrio={inmueble.barrio}
                       departamento={inmueble.departamento}
                       metros2={inmueble.m2}
