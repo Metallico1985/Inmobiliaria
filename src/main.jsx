@@ -25,7 +25,6 @@ const ProtectedRoute = ({ children }) => {
   }
   return children
 }
-<ProtectedRoute></ProtectedRoute>
 
 const router = createBrowserRouter([
   {
@@ -65,10 +64,7 @@ const router = createBrowserRouter([
     path: "/detalle/:id",
     element: <DetalleProp />,
   },
-  {
-    path: "/footer",
-    element: <Footer />,
-  },
+
   {
     path: "/servicios",
     element: <Servicios />,
