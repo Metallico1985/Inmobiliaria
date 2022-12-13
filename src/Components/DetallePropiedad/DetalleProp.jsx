@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { listarInmuebles } from "../../API/Rule_inmuebles";
 import { FaBed } from "react-icons/fa";
-import { BiDollarCircle } from "react-icons/Bi";
+// import { BiDollarCircle } from "react-icons/Bi";
 import { RxRulerSquare } from "react-icons/Rx";
 import { IconContext } from "react-icons";
 import { RxDoubleArrowLeft } from "react-icons/Rx";
