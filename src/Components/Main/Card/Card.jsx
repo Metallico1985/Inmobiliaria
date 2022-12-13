@@ -1,8 +1,8 @@
 import React from "react";
-import { FaBed } from "react-icons/fa";
-import { BiDollarCircle } from "react-icons/Bi";
-import { RxRulerSquare } from "react-icons/Rx";
-import { IconContext } from "react-icons";
+// import { FaBed } from "react-icons/fa";
+// import { BiDollarCircle } from "react-icons/Bi";
+// import { RxRulerSquare } from "react-icons/Rx";
+// import { IconContext } from "react-icons";
 
 import "./Card.css";
 
@@ -34,21 +34,21 @@ function Card({
         <div class="cardBottom">
           {tipoInmueble == "Oficina" || tipoInmueble == "Terreno" || tipoInmueble == "LocalComercial" || tipoInmueble == "LocalIndustrial" ? <></> :
             <div className="desc">
-              <IconContext.Provider value={{ color: "grey", size: "1.5rem" }}>
+              {/* <IconContext.Provider value={{ color: "grey", size: "1.5rem" }}>
                 <FaBed />
-              </IconContext.Provider>
+              </IconContext.Provider> */}
               <p class="cardText">{dormitorios}</p>
             </div>}
           <div className="desc">
-            <IconContext.Provider value={{ color: "grey", size: "1.5rem" }}>
+            {/* <IconContext.Provider value={{ color: "grey", size: "1.5rem" }}>
               <RxRulerSquare />
-            </IconContext.Provider>
+            </IconContext.Provider> */}
             <p class="cardText">{metros2}</p>
           </div>
           <div className="desc1">
-            <IconContext.Provider value={{ color: "grey", size: "1.5rem" }}>
+            {/* <IconContext.Provider value={{ color: "grey", size: "1.5rem" }}>
               <BiDollarCircle />
-            </IconContext.Provider>
+            </IconContext.Provider> */}
             <p class="cardPrice">{precio}</p>
           </div>
         </div>
