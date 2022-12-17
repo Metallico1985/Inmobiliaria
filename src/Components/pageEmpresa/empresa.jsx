@@ -7,10 +7,10 @@ const Empresa = () => {
     <div class="container marketing">
       <Header />
       <div class="row">
-        <div class="col-lg-4">
+        <div class="">
           <img
             class="img-circle"
-            src="Images/verdeImagen.jpg"
+            src="https://media.istockphoto.com/id/1145840259/es/vector/inicio-icono-plano-pixel-perfect-para-m%C3%B3vil-y-web.jpg?s=612x612&w=0&k=20&c=Tpvict_rGvsbUSfdwAHR3o4CQaNuqX9VUeQ4cU3e2ok="
             alt="Globe"
             width="140"
             height="140"
@@ -130,7 +130,7 @@ const Empresa = () => {
         <div class="col-md-5">
           <img
             class="img-rounded img-responsive center-block"
-            src="Images/casaImagen.png"
+            src="/public/Images/casaImagen.png"
             alt="Phone"
           />
         </div>

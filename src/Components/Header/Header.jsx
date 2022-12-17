@@ -33,7 +33,6 @@ function Header() {
           <ModalAdm open={open} close={handleClose} /></div>
           : <div className="btnLogin">
             <button onClick={() => navigate("/login")}>INICIAR SESIÓN</button>
-            <button onClick={() => navigate("/registro")}>Registrar</button>
           </div>
 
         }
