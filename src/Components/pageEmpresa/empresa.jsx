@@ -10,7 +10,7 @@ const Empresa = () => {
         <div class="">
           <img
             class="img-circle"
-            src="https://media.istockphoto.com/id/1145840259/es/vector/inicio-icono-plano-pixel-perfect-para-m%C3%B3vil-y-web.jpg?s=612x612&w=0&k=20&c=Tpvict_rGvsbUSfdwAHR3o4CQaNuqX9VUeQ4cU3e2ok="
+            src="Images/verdeimagen.jpg"
             alt="Globe"
             width="140"
             height="140"
