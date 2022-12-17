@@ -7,7 +7,7 @@ const Empresa = () => {
     <div class="container marketing">
       <Header />
       <div class="row">
-        <div class="">
+        <div class="col-lg-4">
           <img
             class="img-circle"
             src="Images/verdeimagen.jpg"
