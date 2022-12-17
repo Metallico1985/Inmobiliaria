@@ -31,6 +31,7 @@
 .img-circle {
   border-radius: 100%;
   margin-left: 4%;
+  height: 50%;
   box-shadow: 5px 10px 8px #353434;
 }
 
