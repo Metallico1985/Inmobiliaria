@@ -72,7 +72,7 @@ function DetalleProp() {
             </IconContext.Provider> */}
             <img
               className="cardImg"
-              src={`http://localhost:8000/api/inmuebles/imagenPropiedad/${inmueble.id_inmueble}`}
+              src={`https://back-inmobiliaria.vercel.app/api/inmuebles/imagenPropiedad/${inmueble.id_inmueble}`}
               alt=""
             />
             {/* <IconContext.Provider
