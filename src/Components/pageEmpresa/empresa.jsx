@@ -130,7 +130,7 @@ const Empresa = () => {
         <div class="col-md-5">
           <img
             class="img-rounded img-responsive center-block"
-            src="/public/Images/casaImagen.png"
+            src="Images/casaImagen.png"
             alt="Phone"
           />
         </div>
