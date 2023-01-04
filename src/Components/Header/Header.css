@@ -73,7 +73,17 @@
   .logoContainer {
     width: 100%;
   }
+  .logoContainer img {
+    width: 50%;
+    margin-top: 0;
+  }
   .btnsContainer {
     width: 100%;
+  }
+}
+@media(max-width: 400px){
+  .logoContainer img {
+    width: 70%;
+    margin-top: 0;
   }
 }
