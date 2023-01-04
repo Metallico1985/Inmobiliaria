@@ -64,7 +64,7 @@ a:hover {
 }
 /*///////////////////////////////////////MEDIA QUERIES///////////////////////////////////////////////////////*/
 
-@media (min-width: 389px){
+@media (max-width: 768px){
     .navbarList {
         display: block;
     }

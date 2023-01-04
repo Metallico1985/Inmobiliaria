@@ -58,7 +58,7 @@
 }
 /*////////////////////////////////MEDIA//////////////////////////////////////////////////*/
 
-@media(min-width: 390px){
+@media(max-width: 768px){
   .headerContainer{
     flex-direction: column;
   }

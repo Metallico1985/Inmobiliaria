@@ -62,7 +62,7 @@ footer .border-shape {
   font-size: 12px;
 }
 /*//////////////////////////MEDIA////////////////////////////////////////////////////*/
-@media(min-width: 350px){
+@media(max-width: 768px){
   .top_header {
   flex-direction: column;
   }

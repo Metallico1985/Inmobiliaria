@@ -46,7 +46,7 @@
 
 /*////////////////////////////////////MEDIA/////////////////////////////////////////////////*/
 
-@media(min-width: 350px){
+@media(max-width: 768px){
   .filtersContainer {
     height: 45rem;
     margin-bottom: 3rem;
