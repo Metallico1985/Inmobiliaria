@@ -1,0 +1,26 @@
+.formContainer {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/public/Images/aereaCasas.jpg');
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.btnIngresoProp {
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  color: red;
+  ;
+}
+
+.btnIngresoProp:hover {
+  color: azure;
+  background-color: red;
+  box-shadow: rgb(9, 9, 9) 0px 20px 30px -10px;
+}

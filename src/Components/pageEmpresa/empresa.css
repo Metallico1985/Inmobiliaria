@@ -1,0 +1,73 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+/* body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  padding-bottom: 20px;
+  padding: 0;
+  min-height: 100vh;
+} */
+
+/* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+/* MARKETING CONTENT
+  -------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: normal;
+  padding: 10px;
+  margin-left: 8%;
+}
+
+.img-circle {
+  border-radius: 100%;
+  margin-left: 4%;
+  box-shadow: 5px 10px 8px #353434;
+}
+
+.lead {
+  letter-spacing: 1px;
+  margin-left: 5%;
+}
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+  margin: 50px 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+.Footer {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.img-rounded.img-responsive.center-block {
+  width: 500px;
+  border-radius: 20%;
+  box-shadow: 5px 10px 8px #353434;
+}
+
+.container.marketing {
+  background-color: buttonface;
+  position: absolute;
+  max-width: 100%;
+  padding: 0 0;
+}

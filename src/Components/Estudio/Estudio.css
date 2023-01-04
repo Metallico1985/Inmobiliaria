@@ -1,0 +1,10 @@
+.imageContainer {
+  text-align: center;
+  /* background-color: buttonface; */
+}
+
+.image {
+  height: 41rem;
+  width: 40rem;
+  background-color: buttonface;
+}

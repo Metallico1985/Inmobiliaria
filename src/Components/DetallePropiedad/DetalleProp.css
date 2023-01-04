@@ -1,0 +1,117 @@
+.mainDetalle {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* text-align: center; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("/public/Images/aereaCasas.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.btnInicio {
+  position: relative;
+}
+
+.cardDetalle {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+  width: 63vw;
+  background: buttonface;
+
+  border-radius: 2rem;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardImgContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  border-radius: 20px;
+  margin: 0 1rem;
+}
+
+.cardImg {
+  margin: 0;
+  height: 25rem;
+  width: 35rem;
+}
+
+.textFlex {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: space-between;
+  margin: 20px;
+  margin-top: 0;
+}
+
+.cardText {
+  display: flex;
+  margin-right: 5px;
+  width: 70%;
+}
+
+.operacionYref {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+  margin-bottom: 1rem;
+}
+
+.tipo {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.ref {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.tipoInmueble {
+  color: rgb(7, 4, 0);
+  font-size: 25px;
+}
+
+
+.cardTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardBottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.desc {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.desc1 {
+  display: flex;
+  align-items: center;
+}
+
+.cardPrice {
+  display: flex;
+  margin-right: 5px;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bolder;
+}

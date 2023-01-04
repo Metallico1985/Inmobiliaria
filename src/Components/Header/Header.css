@@ -1,0 +1,79 @@
+.headerContainer {
+  display: flex;
+  background-color: buttonface;
+}
+
+.header {
+  width: 100%;
+  padding: 1rem;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header a {
+  width: 15%;
+  text-decoration: none;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.logoContainer img {
+  width: 130%;
+  margin-top: 0;
+}
+
+.logoContainer h1 {
+  font-size: 30px;
+  color: black;
+}
+
+.btnsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.btnsContainer button {
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  color: red;
+  transition: ease 1s;
+  margin: 0 0.5rem;
+}
+
+.btnsContainer button:hover {
+  color: azure;
+  background-color: red;
+  box-shadow: rgb(80, 80, 80) 0px 20px 30px -10px;
+  transform: scale(1);
+}
+/*////////////////////////////////MEDIA//////////////////////////////////////////////////*/
+
+@media(min-width: 390px){
+  .headerContainer{
+    flex-direction: column;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .header a {
+    width: 30%;
+    text-decoration: none;
+  }
+  
+  .logoContainer {
+    width: 100%;
+  }
+  .btnsContainer {
+    width: 100%;
+  }
+}
