@@ -7,7 +7,6 @@ import Eliminar from "../src/Components/EliminarPropiedad/Eliminar";
 import DetalleProp from "./Components/DetallePropiedad/DetalleProp";
 import Hero from "./Components/Hero/Hero";
 import Main from "./Components/Main/Main";
-import Footer from "./Components/Footer/Footer";
 import Contacto from "./Components/Contacto/Contacto";
 import Estudio from "./Components/Estudio/Estudio";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
