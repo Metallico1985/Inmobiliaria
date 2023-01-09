@@ -30,7 +30,7 @@ function Contacto() {
 
     emailjs
       .sendForm(
-        "service_07xpjtq",
+        "service_ih99u6w",
         "template_kskp2bg",
         form.current,
         "-eIVvVkH1oJsOSlDL"
