@@ -8,7 +8,7 @@ const Servicios = () => {
     <div class="container marketing">
       <Header />
       <div class="row">
-        <div class="col-3">
+        <div class="col-lg-3">
           <img
             class="img-circleB"
             src="https://res.cloudinary.com/djtzwpqga/image/upload/v1482111662/website_al6qpj.jpg"
@@ -24,7 +24,7 @@ const Servicios = () => {
             </a>
           </p>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3">
           <img
             class="img-circleB"
             src="Images/alquilerchico.jpg"
@@ -40,7 +40,7 @@ const Servicios = () => {
             </a>
           </p>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3">
           <img
             class="img-circleB"
             src="Images/venta.jpg"
@@ -56,7 +56,7 @@ const Servicios = () => {
             </a>
           </p>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3">
           <img
             class="img-circleB"
             src="https://res.cloudinary.com/djtzwpqga/image/upload/v1482111659/idea_kdgaws.jpg"
@@ -77,7 +77,7 @@ const Servicios = () => {
       </div>
       <hr class="featurette-divider" />
       <div class="row featurette" id="first">
-        <div class="col-md-7">
+        <div class="textSection">
           <h2 class="featurette-heading">
             Prestamos <span class="text-muted">Inmobiliarios</span>
           </h2>
@@ -100,7 +100,7 @@ const Servicios = () => {
       <hr class="featurette-divider" />
 
       <div class="row featurette" id="second">
-        <div class="col-md-7">
+        <div class="textSection">
           <h2 class="featurette-heading">
             Alquileres{" "}
             <span class="text-muted">
@@ -126,7 +126,7 @@ const Servicios = () => {
       <hr class="featurette-divider" />
 
       <div class="row featurette" id="second">
-        <div class="col-md-7">
+        <div class="textSection">
           <h2 class="featurette-heading">
             Ventas <span class="text-muted"></span>
           </h2>
@@ -147,8 +147,8 @@ const Servicios = () => {
 
       <hr class="featurette-divider" />
 
-      <div class="row featurette" id="third">
-        <div class="col-md-7">
+      <div class="row featurette" >
+        <div class="textSection">
           <h2 class="featurette-heading">
             Tasacciones,{" "}
             <span class="text-muted">comunicate con nuestro equipo. </span>

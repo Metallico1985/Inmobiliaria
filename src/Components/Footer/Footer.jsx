@@ -5,7 +5,7 @@ import { IconContext } from "react-icons";
 
 function Footer() {
   return (
-    <footer className="Footer">
+    <footer className="mainFooter">
       <div class="top_header">
         <section>
           <IconContext.Provider value={{ color: "red", size: "25px" }}>
@@ -32,7 +32,7 @@ function Footer() {
       <div class="bottom_content"></div>
 
       <section class="copyright">
-        <p>DESDE 1990 SIENDO LA EMPRESA MAS SOLICITADA</p>
+        <p>Desde 1990, junto a usted.</p>
         <p>Copyright © 2023 Inmobiliaria Rossi - All rights reserved</p>
       </section>
     </footer>

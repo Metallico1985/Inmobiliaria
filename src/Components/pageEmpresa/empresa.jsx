@@ -60,7 +60,7 @@ const Empresa = () => {
       </div>
       <hr class="featurette-divider" />
       <div class="row featurette" id="first">
-        <div class="col-md-7">
+        <div class="textSections">
           <h2 class="featurette-heading">
             Nuestra empresa, <span class="text-muted">tu empresa.</span>
           </h2>
@@ -87,7 +87,7 @@ const Empresa = () => {
       <hr class="featurette-divider" />
 
       <div class="row featurette" id="second">
-        <div class="col-md-7">
+        <div class="textSections">
           <h2 class="featurette-heading">
             Nuestros inicios <span class="text-muted">junto a ustedes.</span>
           </h2>
@@ -114,7 +114,7 @@ const Empresa = () => {
       <hr class="featurette-divider" />
 
       <div class="row featurette" id="third">
-        <div class="col-md-7">
+        <div class="textSections">
           <h2 class="featurette-heading">
             Nuestros objetivos,{" "}
             <span class="text-muted">proyectado al publico. </span>
