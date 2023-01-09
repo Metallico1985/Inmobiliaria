@@ -75,7 +75,7 @@ const Empresa = () => {
             </strong>
           </p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 image">
           <img
             class="img-rounded img-responsive center-block "
             src="https://res.cloudinary.com/djtzwpqga/image/upload/v1482111659/mainpage_xkeyfv.jpg"
@@ -102,7 +102,7 @@ const Empresa = () => {
             </strong>
           </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 image">
           <img
             class="img-rounded img-responsive center-block"
             src="Images/laspiedras.jpg"
@@ -127,7 +127,7 @@ const Empresa = () => {
             clientes la busqueda y sus pretensiones.
           </p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 image">
           <img
             class="img-rounded img-responsive center-block"
             src="Images/casaImagen.png"

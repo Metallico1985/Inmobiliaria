@@ -48,7 +48,7 @@ function Contacto() {
   return (
     <div>
       <Header />
-      <div id="contactoMapa">
+      <div className="contactoMapa">
         <div className="contacto">
           <form className="contactForm" ref={form} onSubmit={sendEmail}>
             <h1 className="titulo">Contáctenos</h1>
@@ -84,33 +84,6 @@ function Contacto() {
           <Mapa />
         </div>
       </div>
-      {/* <div className="datos">
-        <div className="direccion">
-          <IconContext.Provider value={{ color: "red", size: "40px" }}>
-            <SlLocationPin />
-          </IconContext.Provider>
-          ;<p>Rivera 641</p>
-          <p>Las Piedras</p>
-          <p>Uruguay</p>
-        </div>
-        <div className="telefono">
-          <IconContext.Provider value={{ color: "red", size: "40px" }}>
-            <div>
-              <SlCallIn />
-            </div>
-          </IconContext.Provider>
-          <div className="telefonos">
-            <p>+598 2 365 6520</p>
-            <p>+598 99 867 688</p>
-          </div>
-        </div>
-        <div className="mail">
-          <IconContext.Provider value={{ color: "red", size: "40px" }}>
-            <SlEnvolope />
-          </IconContext.Provider>
-          <p className="mail1">contacto@inmobiliariarossi.com.uy</p>
-        </div>
-      </div> */}
 
       <div className="footer">
         <Footer />

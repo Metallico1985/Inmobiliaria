@@ -10,8 +10,8 @@ import "./Mapa.css";
 //npm i --save @react-google-maps/api
 
 const containerStyle = {
-  width: "500px",
-  height: "500px",
+  width: "30rem",
+  height: "32rem",
 };
 
 const center = {

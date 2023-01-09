@@ -1,21 +1,20 @@
 .img {
-  height: 500px;
+  /* height: 500px;
   width: 100%;
   position: relative;
-  margin: 0;
+  margin: 0; */
 }
 
 .titulo {
-  /* background-color: rgb(240, 238, 238); */
   color: red;
   padding: 20px;
   border-radius: 20px;
 }
 
 .contactForm {
-  /* border: 1px solid grey; */
+  width: 28rem;
+  height: 32rem;
   background-color: buttonface;
-  padding: 2rem;
   border-radius: 20px;
 }
 
@@ -55,27 +54,24 @@
   text-align: center;
 }
 
-#contactoMapa {
+.contactoMapa {
   display: flex;
   background-color: white;
-  height: 90vh;
+  height: 100vh;
   justify-content: space-around;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('./Images/aereaCasas.jpg');
   background-position: center;
   background-repeat: none;
   background-size: cover;
 }
-
-.contacto {
+.mapa{
   display: flex;
   align-items: center;
 }
-
-.mapa {
+.contacto{
   display: flex;
   align-items: center;
 }
-
 .datos {
   display: flex;
   justify-content: space-around;
@@ -105,4 +101,27 @@
 
 .mail1 {
   margin-top: 30px;
+}
+@media(max-width: 768px){
+  .contactoMapa {
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-image:none;
+   background-color: buttonface;
+  }
+  .contacto {
+    margin-top: 8rem;
+    width: 100vw;
+    align-items: center;
+   justify-content: center;
+  }
+  .mapa{
+    width: 100vw;
+    align-items: center;
+   justify-content: center;
+  }
+}
+@media(max-width: 450px){
+
 }

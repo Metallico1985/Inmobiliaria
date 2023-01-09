@@ -88,7 +88,7 @@ const Servicios = () => {
             <br></br>
           </p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 image">
           <img
             class="img-rounded img-responsive center-block"
             src="Images/prestamos.jpg"
@@ -114,7 +114,7 @@ const Servicios = () => {
             instante.
           </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 image">
           <img
             class="img-rounded img-responsive center-block"
             src="/Images/alquileres.jpg"
@@ -136,7 +136,7 @@ const Servicios = () => {
             mejor precio. Comprometiendonos dia a dia con nuestros clientes.{" "}
           </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 image">
           <img
             class="img-rounded img-responsive center-block"
             src="/Images/ventas.jpg"
@@ -159,7 +159,7 @@ const Servicios = () => {
             al momento de completar un movimiento de esta magnitud.
           </p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 image">
           <img
             class="img-rounded img-responsive center-block"
             src="/Images/tasacciones.jpg"

@@ -46,25 +46,28 @@ margin-right: 1rem;
       display: flex;
       flex-direction: column;
       width:20%;
-      background: buttonface;
-      height: -webkit-fill-available;        
+     
+      height: -webkit-fill-height;        
       transform: translateX(-120%);
       transition: 0.3s ease all;
   }
   .nav_items.open{
       transform: translateX(0) !important;
+      background:buttonface;
+      padding: 1rem;
+      border: none;
   }
   .nav_logo img {
     width: 30%;
     margin-top: 0;
   }
   .nav_items.open a{
-    color: buttonface;
     margin-top: 0.5rem;
     padding-left: 0.5rem;
+    
   }
   .nav_items.open a:visited{
-    color: buttonface;
+  color: black;
   }
   .btnsContainer button {
     font-size: 11px;
