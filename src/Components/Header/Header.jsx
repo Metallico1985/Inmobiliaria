@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { useNavigate, Link } from 'react-router-dom'
-// import ModalAdm from "../Modal/ModalAdm"
+import ModalAdm from "../Modal/ModalAdm"
 import { useState } from 'react'
 
 function Header() {
