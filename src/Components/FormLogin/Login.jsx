@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { iniciarSesion } from '../../API/Rule_auth'
+import { Backdrop, CircularProgress } from '@mui/material'
 import './Login.css'
 
 function Login() {
@@ -22,17 +23,25 @@ function Login() {
         const credenciales = { email: email, password: password };
         await iniciarSesion(credenciales)
             .then(() => {
+                handleOpen(false)
                 alert("Logueado correctamente")
 
                 navigate("/main");
             })
             .catch((error) => {
+                handleOpen(false)
                 alert(error);
             })
     };
 
     return (
         <div className='mainLogin'>
+            <Backdrop
+        sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={open}
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop>
             <div className='formCont'>
                 <form onSubmit={handleSubmit} action="">
                     <h2>Iniciar sesión</h2>
