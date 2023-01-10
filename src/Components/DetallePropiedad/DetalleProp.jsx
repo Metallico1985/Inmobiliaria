@@ -2,6 +2,8 @@ import "./DetalleProp.css";
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { listarInmuebles } from "../../API/Rule_inmuebles";
+import Header from "../Header/Header"
+import Footer from "../Footer/Footer"
 // import { FaBed } from "react-icons/fa";
 // import { BiDollarCircle } from "react-icons/Bi";
 // import { RxRulerSquare } from "react-icons/Rx";
@@ -63,6 +65,8 @@ function DetalleProp() {
   }
 
   return (
+    <div>
+      <Header/>
     <div className="mainDetalle">
       {inmueble ? (
         <div className="cardDetalle">
@@ -123,9 +127,74 @@ function DetalleProp() {
             </div>
           </div>
         </div>
-      ) : null}
+      ) : (null)}
+
+</div>
+    <Footer/>
     </div>
   );
 }
+      
+      // (
+      //   <div className="cardDetalle">
+      //     <div className="cardImgContainer">
+      //       {/* <IconContext.Provider value={{ color: "black", size: "30px" }}>
+      //         <RxDoubleArrowLeft onClick={moveLeft} />
+      //       </IconContext.Provider> */}
+      //       <img
+      //         className="cardImg"
+      //         // src={`https://back-inmobiliaria.vercel.app/api/inmuebles/imagenPropiedad/${inmueble.id_inmueble}`}
+      //         src="https://revista-lagunas.s3.us-east-2.amazonaws.com/2021/12/360-los-mejores-estilos-y-disenos-para-una-casa-de-campo-129-big.jpg"
+      //         alt=""
+      //       />
+      //       {/* <IconContext.Provider
+      //         value={{ color: "black", size: "30px" }}
+      //         onClick={moveRight}
+      //       >
+      //         <RxDoubleArrowRight onClick={moveRight} />
+      //       </IconContext.Provider> */}
+      //     </div>
+      //     <div class="textFlex">
+      //       <div className="operacionYref">
+      //         <div className="tipo">Venta</div>
+      //         <div className="ref">23</div>
+      //       </div>
+
+      //       <div className="cardRight">
+      //         <div class="cardTop">
+      //           <p class="tipoInmueble">Casa</p>
+      //         </div>
+      //         <div className="location">
+      //           <p class="barrio">Pocitos</p>
+      //           <p class="depto">Montevideo</p>
+      //         </div>
+      //         <div className="descripcion">
+      //           Hermosa casa en inmejorable uvicacion de la ciudad
+      //         </div>
+      //       </div>
+      //       <div class="cardBottom">
+      //           {/* <IconContext.Provider value={{ color: "gray", size: "30px" }}>
+      //             <FaBed />
+      //           </IconContext.Provider> */}
+      //           <p class="cardText">3 dormitorios</p>
+      //         </div>
+
+      //         <div className="desc">
+      //           {/* <IconContext.Provider value={{ color: "gray", size: "30px" }}>
+      //             <RxRulerSquare />
+      //           </IconContext.Provider> */}
+      //           <p class="cardText">150 mts2</p>
+      //         </div>
+      //         <div className="desc1">
+      //           {/* <IconContext.Provider value={{ color: "gray", size: "30px" }}>
+      //             <BiDollarCircle />
+      //           </IconContext.Provider> */}
+      //           <p className="cardPrice">230000</p>
+      //         </div>
+      //       </div>
+      //     </div>
+        
+      // )}
+   
 
 export default DetalleProp;

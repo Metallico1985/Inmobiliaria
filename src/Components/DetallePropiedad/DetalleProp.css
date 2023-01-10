@@ -1,29 +1,21 @@
 .mainDetalle {
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* text-align: center; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
     url("/public/Images/aereaCasas.jpg");
   background-position: center;
   background-repeat: none;
   background-size: cover;
 }
-
-.btnInicio {
-  position: relative;
-}
-
 .cardDetalle {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 60vh;
-  width: 63vw;
+  height: 60%;
+  width: 65%;
   background: buttonface;
-
   border-radius: 2rem;
 }
 
@@ -37,15 +29,16 @@
   display: flex;
   align-items: center;
   text-align: center;
-  height: 50vh;
+  height: 80%;
+  width: 60%;
   border-radius: 20px;
   margin: 0 1rem;
 }
 
 .cardImg {
   margin: 0;
-  height: 25rem;
-  width: 35rem;
+  height: 100%;
+  width: 100%;
 }
 
 .textFlex {
@@ -58,9 +51,9 @@
 }
 
 .cardText {
+  margin-top: 1rem;
   display: flex;
-  margin-right: 5px;
-  width: 70%;
+  width: 100%;
 }
 
 .operacionYref {
@@ -85,33 +78,55 @@
   color: rgb(7, 4, 0);
   font-size: 25px;
 }
-
-
 .cardTop {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
-.cardBottom {
-  display: flex;
-  align-items: flex-end;
 }
-
 .desc {
   display: flex;
   margin-top: 1rem;
 }
-
-.desc1 {
-  display: flex;
-  align-items: center;
-}
-
 .cardPrice {
   display: flex;
-  margin-right: 5px;
   margin-bottom: 0;
   font-size: 30px;
   font-weight: bolder;
+}
+@media(max-width:768px){
+  .mainDetalle {
+    height: 100vh;
+    flex-direction: column;
+    background-color: buttonface;
+    background-image:none;
+  }
+  .cardDetalle {
+    display: block;
+   width: 100%;
+  }
+  .cardImgContainer {
+    width: 90%;
+    height: 35%;
+  }
+  .cardImg {
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+  }
+  .textFlex {
+    margin-top: 15%;
+   height: 50%;
+   width: 90%;
+  }
+  .operacionYref {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .tipo {
+    font-size: 2rem;
+  }
+  .ref {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
 }
