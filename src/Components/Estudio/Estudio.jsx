@@ -5,7 +5,7 @@ import "./Estudio.css";
 
 function Estudio() {
   return (
-    <div id="estudio">
+    <div className="estudio">
       <div>
         <Header />
       </div>
