@@ -15,7 +15,9 @@ function Login() {
     const handleMail = (e) => { setEmail(e.target.value) }
     const handlePass = (e) => { setPass(e.target.value) }
 
-
+    const [open, setOpen] = useState(true);
+    const handleOpen = () => { setOpen() }
+    
     const handleSubmit = async (e) => {
 
         e.preventDefault();
