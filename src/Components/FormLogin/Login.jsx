@@ -15,16 +15,17 @@ function Login() {
     const handleMail = (e) => { setEmail(e.target.value) }
     const handlePass = (e) => { setPass(e.target.value) }
 
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
     const handleOpen = () => { setOpen() }
 
     const handleSubmit = async (e) => {
-
+        handleOpen(true)
         e.preventDefault();
 
         const credenciales = { email: email, password: password };
         await iniciarSesion(credenciales)
             .then(() => {
+                handleOpen(false)
                 alert("Logueado correctamente")
                 navigate("/main");
             })
