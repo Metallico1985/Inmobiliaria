@@ -63,12 +63,12 @@ h2 {
   }
 }
 @media(max-width: 450px){
-  .img-circle{
+  .img-circleB{
     width: 35%;
   }
 }
 @media(max-width: 320px){
-  .img-circle{
+  .img-circleB{
     width: 40%;
   }
 }
