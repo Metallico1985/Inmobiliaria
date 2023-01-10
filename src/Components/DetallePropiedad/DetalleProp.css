@@ -78,9 +78,6 @@
   color: rgb(7, 4, 0);
   font-size: 25px;
 }
-.cardTop {
-
-}
 .desc {
   display: flex;
   margin-top: 1rem;
@@ -131,6 +128,6 @@
   }
   .cardBottom{
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
   }
 }

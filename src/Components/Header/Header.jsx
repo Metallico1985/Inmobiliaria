@@ -18,7 +18,7 @@ function Header() {
 
 
     <div className="navbar">
-      <div className="nav_logo"><Link to="/main"><img src="./Images/logoInmobiliaria.png"></img></Link> </div>
+      <div className="nav_logo"><Link to="/main"><img src="/Images/logoInmobiliaria.png"></img></Link> </div>
       <div className={`nav_items ${isOpen && "open"}`}>
         <Link to="/main" >Inicio</Link>
         <Link to="/Empresa">Empresa</Link>
