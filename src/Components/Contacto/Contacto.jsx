@@ -31,9 +31,9 @@ function Contacto() {
     emailjs
       .sendForm(
         "service_ih99u6w",
-        "template_kskp2bg",
+        "template_ut04fvl",
         form.current,
-        "-eIVvVkH1oJsOSlDL"
+        "zkmFiPQyC_F5retbM"
       )
       .then(
         (result) => {

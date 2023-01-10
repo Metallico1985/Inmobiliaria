@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { useNavigate, Link } from 'react-router-dom'
-// import ModalAdm from "../Modal/ModalAdm"
+import ModalAdm from "../Modal/ModalAdm"
 import { useState } from 'react'
 
 function Header() {
@@ -26,14 +26,17 @@ function Header() {
         <Link to="/Estudio">Estudio</Link>
         <Link to="/Contacto">Contacto</Link>
         <div className="btnsContainer">
-        {tokenActivo ? <div className="btnAdmin">
+        <button onClick={() => navigate("/login")}>INICIAR SESIÓN</button>
+        <button onClick={handleOpen} >ADMINISTRAR</button>
+        <ModalAdm open={open} close={handleClose} />
+        {/* {tokenActivo ? <div className="btnAdmin">
           <button onClick={handleOpen} >ADMINISTRAR</button>
           <button onClick={closeSesion} >CERRAR SESIÓN</button>
           <ModalAdm open={open} close={handleClose} />
         </div> :
           <div className="btnLogin">
             <button onClick={() => navigate("/login")}>INICIAR SESIÓN</button>
-          </div>}
+          </div>} */}
       </div>
       </div>
       <div className={`nav_toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)} >
