@@ -6,8 +6,9 @@ import "./Estudio.css";
 function Estudio() {
   return (
     <div className="estudio">
-      <div>
-        <Header />
+      <Header />
+      <div className="enObra">
+
       </div>
       <Footer />
     </div>
