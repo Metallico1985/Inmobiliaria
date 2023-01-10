@@ -17,7 +17,7 @@ function Login() {
 
     const [open, setOpen] = useState(true);
     const handleOpen = () => { setOpen() }
-    
+
     const handleSubmit = async (e) => {
 
         e.preventDefault();
@@ -25,9 +25,7 @@ function Login() {
         const credenciales = { email: email, password: password };
         await iniciarSesion(credenciales)
             .then(() => {
-                handleOpen(false)
                 alert("Logueado correctamente")
-
                 navigate("/main");
             })
             .catch((error) => {
