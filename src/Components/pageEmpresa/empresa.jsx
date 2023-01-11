@@ -4,13 +4,13 @@ import Header from "../Header/Header";
 
 const Empresa = () => {
   return (
-    <div class="container marketing">
+    <div class="containerEmpresa">
       <Header />
-      <div class="row">
+      <div class="circleImgContainer">
         <div class="col-lg-4">
           <img
             class="img-circle"
-            src="Images/verdeimagen.jpg"
+            src="/Images/logoInmobiliaria.png"
             alt="Globe"
             width="140"
             height="140"
@@ -26,7 +26,7 @@ const Empresa = () => {
         <div class="col-lg-4">
           <img
             class="img-circle"
-            src="https://res.cloudinary.com/djtzwpqga/image/upload/v1482111656/tech_ejgji3.jpg"
+            src="https://parquebatalladelaspiedras.imcanelones.gub.uy/media/zoo/images/estacion-las-piedras-desarrollo_b7087337d710cff3a5da89e4ae07060a.jpg"
             alt="Computer"
             width="140"
             height="140"
@@ -42,7 +42,7 @@ const Empresa = () => {
         <div class="col-lg-4">
           <img
             class="img-circle"
-            src="https://res.cloudinary.com/djtzwpqga/image/upload/v1482111659/idea_kdgaws.jpg"
+            src="https://thumbs.dreamstime.com/z/okr-en-la-pizarra-o-texto-dominante-objetivo-de-las-siglas-los-resultados-con-muchas-bombillas-que-brillan-intensamente-140412308.jpg"
             alt="Phone"
             width="140"
             height="140"
@@ -55,10 +55,8 @@ const Empresa = () => {
             </a>
           </p>
         </div>
-
-        {/* home */}
       </div>
-      <hr class="featurette-divider" />
+      <hr class="divider" />
       <div class="row featurette" id="first">
         <div class="textSections">
           <h2 class="featurette-heading">
@@ -78,13 +76,13 @@ const Empresa = () => {
         <div class="col-md-5 image">
           <img
             class="img-rounded img-responsive center-block "
-            src="https://res.cloudinary.com/djtzwpqga/image/upload/v1482111659/mainpage_xkeyfv.jpg"
+            src="https://www.grupoioe.es/wp-content/uploads/2021/12/Fortalezas-de-una-empresa-mejorar.jpg"
             alt="Website"
           />
         </div>
       </div>
 
-      <hr class="featurette-divider" />
+      <hr class="divider" />
 
       <div class="row featurette" id="second">
         <div class="textSections">
@@ -111,7 +109,7 @@ const Empresa = () => {
         </div>
       </div>
 
-      <hr class="featurette-divider" />
+      <hr class="divider" />
 
       <div class="row featurette" id="third">
         <div class="textSections">
@@ -130,11 +128,11 @@ const Empresa = () => {
         <div class="col-md-5 image">
           <img
             class="img-rounded img-responsive center-block"
-            src="Images/casaImagen.png"
+            src="https://img.freepik.com/foto-gratis/hermoso-elegante-personal-sentado-oficina-escritorio-usando-computadora-portatil-escuchando-colega_146671-15600.jpg?w=1380&t=st=1673452815~exp=1673453415~hmac=4ae5962ed213546d6e9871ef9618a8989c59babbb5d0e65f579afe59ce470fc5"
             alt="Phone"
           />
         </div>
-        <hr class="featurette-divider" />
+        <hr class="divider" />
       </div>
       <Footer />
     </div>

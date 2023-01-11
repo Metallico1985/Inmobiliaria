@@ -1,7 +1,11 @@
+.containerServicios{
+  background-color: buttonface;
+  padding: 2rem;
+}
+
 .row {
   display: flex;
 }
-
 .img-rounded.img-responsive.center-block {
   border-radius: 10px;
 }
@@ -11,7 +15,7 @@
 .img-circleB {
   display: flex;
   border-radius: 100%;
-  width: 40%;
+  width: 35%;
 }
 image{
   width: 50%;
@@ -35,8 +39,8 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.featurette-divider {
-  margin: 4rem 0;
+.divider {
+  margin: 4rem;
 }
 .featurette-heading {
   font-weight: 400;
@@ -45,8 +49,12 @@ h2 {
 .container.marketing {
   background-color: buttonface;
 }
-
-@media(max-width: 768px){
+@media(max-width: 1360px){
+  .img-circleB{
+    width: 55%;
+  }
+}
+@media(max-width: 1000px){
   .img-rounded.img-responsive.center-block{
     display: none;
   }
@@ -62,6 +70,11 @@ h2 {
     align-items: center;
   }
 }
+@media(max-width: 768px){
+  .img-circleB{
+    width: 25%;
+  }
+}
 @media(max-width: 450px){
   .img-circleB{
     width: 35%;
@@ -69,6 +82,6 @@ h2 {
 }
 @media(max-width: 320px){
   .img-circleB{
-    width: 40%;
+    width: 60%;
   }
 }

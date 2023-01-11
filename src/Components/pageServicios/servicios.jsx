@@ -5,7 +5,7 @@ import Header from "../Header/Header";
 
 const Servicios = () => {
   return (
-    <div class="container marketing">
+    <div class="containerServicios">
       <Header />
       <div class="row">
         <div class="col-lg-3">
@@ -27,7 +27,7 @@ const Servicios = () => {
         <div class="col-lg-3">
           <img
             class="img-circleB"
-            src="Images/alquilerchico.jpg"
+            src="https://www.finect.com/image/41d98466022082c61cb89fd83e6a0e5a5167918bf44"
             alt="Globe"
             width="140"
             height="140"
@@ -43,7 +43,7 @@ const Servicios = () => {
         <div class="col-lg-3">
           <img
             class="img-circleB"
-            src="Images/venta.jpg"
+            src="https://www.cronista.com/files/image/456/456533/6252f99cd7101.jpg"
             alt="Computer"
             width="140"
             height="140"
@@ -59,7 +59,7 @@ const Servicios = () => {
         <div class="col-lg-3">
           <img
             class="img-circleB"
-            src="https://res.cloudinary.com/djtzwpqga/image/upload/v1482111659/idea_kdgaws.jpg"
+            src="https://jpcarrau.com.uy/wp-content/uploads/2021/03/535x729-tasaciones.png"
             alt="Phone"
             width="140"
             height="140"
@@ -75,7 +75,7 @@ const Servicios = () => {
 
         {/* home */}
       </div>
-      <hr class="featurette-divider" />
+      <hr class="divider" />
       <div class="row featurette" id="first">
         <div class="textSection">
           <h2 class="featurette-heading">
@@ -91,13 +91,13 @@ const Servicios = () => {
         <div class="col-md-5 image">
           <img
             class="img-rounded img-responsive center-block"
-            src="Images/prestamos.jpg"
+            src="https://menorcaaldia.com/wp-content/uploads/2020/10/Sin-ti%CC%81tulo-1024x675.jpeg"
             alt="Website"
           />
         </div>
       </div>
 
-      <hr class="featurette-divider" />
+      <hr class="divider" />
 
       <div class="row featurette" id="second">
         <div class="textSection">
@@ -117,13 +117,13 @@ const Servicios = () => {
         <div class="col-md-4 image">
           <img
             class="img-rounded img-responsive center-block"
-            src="/Images/alquileres.jpg"
+            src="https://d1ih8jugeo2m5m.cloudfront.net/2022/01/negocio-exitoso-1200x685.jpg"
             alt="Sysadmins"
           />
         </div>
       </div>
 
-      <hr class="featurette-divider" />
+      <hr class="divider" />
 
       <div class="row featurette" id="second">
         <div class="textSection">
@@ -139,13 +139,13 @@ const Servicios = () => {
         <div class="col-md-4 image">
           <img
             class="img-rounded img-responsive center-block"
-            src="/Images/ventas.jpg"
+            src="https://www.wallstreetenglish.cl/hs-fs/hubfs/smm-post/blog-posts/10-exoresiones-de-negocios-en-ingles.jpeg?width=1206&name=10-exoresiones-de-negocios-en-ingles.jpeg"
             alt="Sysadmins"
           />
         </div>
       </div>
 
-      <hr class="featurette-divider" />
+      <hr class="divider" />
 
       <div class="row featurette" >
         <div class="textSection">
@@ -162,11 +162,11 @@ const Servicios = () => {
         <div class="col-md-5 image">
           <img
             class="img-rounded img-responsive center-block"
-            src="/Images/tasacciones.jpg"
+            src="https://blog.tasaciones.com/wp-content/uploads/tasacionvivienda.jpg"
             alt="Phone"
           />
         </div>
-        <hr class="featurette-divider" />
+        <hr class="divider" />
       </div>
       <Footer />
     </div>
