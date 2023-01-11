@@ -132,7 +132,7 @@ const Empresa = () => {
             alt="Phone"
           />
         </div>
-        <hr class="divider" />
+        
       </div>
       <Footer />
     </div>

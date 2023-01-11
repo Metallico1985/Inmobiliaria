@@ -166,7 +166,6 @@ const Servicios = () => {
             alt="Phone"
           />
         </div>
-        <hr class="divider" />
       </div>
       <Footer />
     </div>
