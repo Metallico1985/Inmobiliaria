@@ -7,7 +7,7 @@ const Empresa = () => {
     <div class="containerEmpresa">
       <Header />
       <div class="circleImgContainer">
-        <div class="col-lg-4">
+        <div class="imgInfoContainer">
           <img
             class="img-circle"
             src="/Images/logoInmobiliaria.png"
@@ -23,7 +23,7 @@ const Empresa = () => {
             </a>
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="imgInfoContainer">
           <img
             class="img-circle"
             src="https://parquebatalladelaspiedras.imcanelones.gub.uy/media/zoo/images/estacion-las-piedras-desarrollo_b7087337d710cff3a5da89e4ae07060a.jpg"
@@ -39,7 +39,7 @@ const Empresa = () => {
             </a>
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="imgInfoContainer">
           <img
             class="img-circle"
             src="https://thumbs.dreamstime.com/z/okr-en-la-pizarra-o-texto-dominante-objetivo-de-las-siglas-los-resultados-con-muchas-bombillas-que-brillan-intensamente-140412308.jpg"
@@ -57,7 +57,7 @@ const Empresa = () => {
         </div>
       </div>
       <hr class="divider" />
-      <div class="row featurette" id="first">
+      <div class="sectionsContainers">
         <div class="textSections">
           <h2 class="featurette-heading">
             Nuestra empresa, <span class="text-muted">tu empresa.</span>
@@ -73,7 +73,7 @@ const Empresa = () => {
             </strong>
           </p>
         </div>
-        <div class="col-md-5 image">
+        <div class="imageSectionContainer">
           <img
             class="img-rounded img-responsive center-block "
             src="https://www.grupoioe.es/wp-content/uploads/2021/12/Fortalezas-de-una-empresa-mejorar.jpg"
@@ -84,7 +84,7 @@ const Empresa = () => {
 
       <hr class="divider" />
 
-      <div class="row featurette" id="second">
+      <div class="sectionsContainers" >
         <div class="textSections">
           <h2 class="featurette-heading">
             Nuestros inicios <span class="text-muted">junto a ustedes.</span>
@@ -100,7 +100,7 @@ const Empresa = () => {
             </strong>
           </p>
         </div>
-        <div class="col-md-4 image">
+        <div class="imageSectionContainer">
           <img
             class="img-rounded img-responsive center-block"
             src="Images/laspiedras.jpg"
@@ -111,7 +111,7 @@ const Empresa = () => {
 
       <hr class="divider" />
 
-      <div class="row featurette" id="third">
+      <div class="sectionsContainers">
         <div class="textSections">
           <h2 class="featurette-heading">
             Nuestros objetivos,{" "}
@@ -125,7 +125,7 @@ const Empresa = () => {
             clientes la busqueda y sus pretensiones.
           </p>
         </div>
-        <div class="col-md-5 image">
+        <div class="imageSectionContainer">
           <img
             class="img-rounded img-responsive center-block"
             src="https://img.freepik.com/foto-gratis/hermoso-elegante-personal-sentado-oficina-escritorio-usando-computadora-portatil-escuchando-colega_146671-15600.jpg?w=1380&t=st=1673452815~exp=1673453415~hmac=4ae5962ed213546d6e9871ef9618a8989c59babbb5d0e65f579afe59ce470fc5"

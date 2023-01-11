@@ -21,6 +21,10 @@ margin-right: 1rem;
   position: relative;
   text-decoration: none;
   margin-right: 1rem;
+  color: black;
+}
+.nav_items a:hover{
+  color: black;
 }
 .nav_toggle{
   display: none;
@@ -28,7 +32,7 @@ margin-right: 1rem;
 .btnsContainer button {
   border-radius: 1rem;
   border: none;
-  padding: 0.2rem 0.3rem;
+  padding: 0.2rem 0.5rem;
   color: red;
   transition: ease 1s;
 }

@@ -7,8 +7,8 @@ const Servicios = () => {
   return (
     <div class="containerServicios">
       <Header />
-      <div class="row">
-        <div class="col-lg-3">
+      <div class="infoImgSuperiorContainer">
+        <div class="infoImgSuperior">
           <img
             class="img-circleB"
             src="https://res.cloudinary.com/djtzwpqga/image/upload/v1482111662/website_al6qpj.jpg"
@@ -24,7 +24,7 @@ const Servicios = () => {
             </a>
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="infoImgSuperior">
           <img
             class="img-circleB"
             src="https://www.finect.com/image/41d98466022082c61cb89fd83e6a0e5a5167918bf44"
@@ -40,7 +40,7 @@ const Servicios = () => {
             </a>
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="infoImgSuperior">
           <img
             class="img-circleB"
             src="https://www.cronista.com/files/image/456/456533/6252f99cd7101.jpg"
@@ -56,7 +56,7 @@ const Servicios = () => {
             </a>
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="infoImgSuperior">
           <img
             class="img-circleB"
             src="https://jpcarrau.com.uy/wp-content/uploads/2021/03/535x729-tasaciones.png"
@@ -76,7 +76,7 @@ const Servicios = () => {
         {/* home */}
       </div>
       <hr class="divider" />
-      <div class="row featurette" id="first">
+      <div class="containersSections" id="first">
         <div class="textSection">
           <h2 class="featurette-heading">
             Prestamos <span class="text-muted">Inmobiliarios</span>
@@ -88,7 +88,7 @@ const Servicios = () => {
             <br></br>
           </p>
         </div>
-        <div class="col-md-5 image">
+        <div class="image">
           <img
             class="img-rounded img-responsive center-block"
             src="https://menorcaaldia.com/wp-content/uploads/2020/10/Sin-ti%CC%81tulo-1024x675.jpeg"
@@ -99,7 +99,7 @@ const Servicios = () => {
 
       <hr class="divider" />
 
-      <div class="row featurette" id="second">
+      <div class="containersSections" id="second">
         <div class="textSection">
           <h2 class="featurette-heading">
             Alquileres{" "}
@@ -114,7 +114,7 @@ const Servicios = () => {
             instante.
           </p>
         </div>
-        <div class="col-md-4 image">
+        <div class="image">
           <img
             class="img-rounded img-responsive center-block"
             src="https://d1ih8jugeo2m5m.cloudfront.net/2022/01/negocio-exitoso-1200x685.jpg"
@@ -125,7 +125,7 @@ const Servicios = () => {
 
       <hr class="divider" />
 
-      <div class="row featurette" id="second">
+      <div class="containersSections" id="second">
         <div class="textSection">
           <h2 class="featurette-heading">
             Ventas <span class="text-muted"></span>
@@ -136,7 +136,7 @@ const Servicios = () => {
             mejor precio. Comprometiendonos dia a dia con nuestros clientes.{" "}
           </p>
         </div>
-        <div class="col-md-4 image">
+        <div class="image">
           <img
             class="img-rounded img-responsive center-block"
             src="https://www.wallstreetenglish.cl/hs-fs/hubfs/smm-post/blog-posts/10-exoresiones-de-negocios-en-ingles.jpeg?width=1206&name=10-exoresiones-de-negocios-en-ingles.jpeg"
@@ -147,7 +147,7 @@ const Servicios = () => {
 
       <hr class="divider" />
 
-      <div class="row featurette" >
+      <div class="containersSections" >
         <div class="textSection">
           <h2 class="featurette-heading">
             Tasacciones,{" "}
@@ -159,7 +159,7 @@ const Servicios = () => {
             al momento de completar un movimiento de esta magnitud.
           </p>
         </div>
-        <div class="col-md-5 image">
+        <div class="image">
           <img
             class="img-rounded img-responsive center-block"
             src="https://blog.tasaciones.com/wp-content/uploads/tasacionvivienda.jpg"
