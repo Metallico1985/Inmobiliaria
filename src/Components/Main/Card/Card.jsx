@@ -1,10 +1,6 @@
 import React from "react";
-import { FaBed } from "react-icons/fa";
-import { MdAttachMoney } from "react-icons/fa";
-// import { TfiRuler } from "react-icons/fa";
-
-// import { IconContext } from "react-icons";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // 
 import "./Card.css";
 
 function Card({
@@ -36,19 +32,18 @@ function Card({
           {tipoInmueble == "Oficina" || tipoInmueble == "Terreno" || tipoInmueble == "LocalComercial" || tipoInmueble == "LocalIndustrial" ? <></> :
             <div className="iconAndData">
              
-                <FaBed />
+             <FontAwesomeIcon icon="fa-solid fa-bed" />
               
               <p class="cardText">{dormitorios}</p>
             </div>}
           <div className="iconAndData">
-            
-              {/* <TfiRuler /> */}
+          <FontAwesomeIcon icon="fa-regular fa-ruler-triangle" />
             
             <p class="cardText">{metros2}</p>
           </div>
           <div className="iconAndData">
             
-              <MdAttachMoney />
+          <FontAwesomeIcon icon="fa-solid fa-circle-dollar" />
            
             <p class="cardPrice">{precio}</p>
           </div>
