@@ -1,6 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // 
+import StraightenIcon from '@mui/icons-material/Straighten';
 import "./Card.css";
 
 function Card({
@@ -32,18 +31,18 @@ function Card({
           {tipoInmueble == "Oficina" || tipoInmueble == "Terreno" || tipoInmueble == "LocalComercial" || tipoInmueble == "LocalIndustrial" ? <></> :
             <div className="iconAndData">
              
-             <FontAwesomeIcon icon="fa-solid fa-bed" />
+             {/* <FontAwesomeIcon icon="fa-solid fa-bed" /> */}
               
               <p class="cardText">{dormitorios}</p>
             </div>}
           <div className="iconAndData">
-          <FontAwesomeIcon icon="fa-regular fa-ruler-triangle" />
-            
+          {/* <FontAwesomeIcon icon="fa-regular fa-ruler-triangle" /> */}
+          <StraightenIcon></StraightenIcon>
             <p class="cardText">{metros2}</p>
           </div>
           <div className="iconAndData">
             
-          <FontAwesomeIcon icon="fa-solid fa-circle-dollar" />
+          {/* <FontAwesomeIcon icon="fa-solid fa-circle-dollar" /> */}
            
             <p class="cardPrice">{precio}</p>
           </div>
