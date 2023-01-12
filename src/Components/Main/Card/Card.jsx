@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBed } from "react-icons/fa";
-import { MdAttachMoney } from "@react-icons/fa";
+import { MdAttachMoney } from "react-icons/fa";
 import { TfiRuler } from "react-icons/fa";
 
 // import { IconContext } from "react-icons";
