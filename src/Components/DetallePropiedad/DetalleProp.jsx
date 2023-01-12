@@ -4,12 +4,11 @@ import { useEffect, useState } from "react";
 import { listarInmuebles } from "../../API/Rule_inmuebles";
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
-import { FaBed } from "react-icons/fa";
-// import { BiDollarCircle } from "react-icons/Bi";
-// import { RxRulerSquare } from "react-icons/Rx";
-// import { IconContext } from "react-icons";
-// import { RxDoubleArrowLeft } from "react-icons/Rx";
-// import { RxDoubleArrowRight } from "react-icons/Rx";
+import StraightenIcon from '@mui/icons-material/Straighten';
+import HotelIcon from '@mui/icons-material/Hotel';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 function DetalleProp() {
   const { id } = useParams();
@@ -71,6 +70,8 @@ function DetalleProp() {
       {inmueble ? (
         <div className="cardDetalle">
           <div className="cardImgContainer">
+
+            <KeyboardArrowLeftIcon onClick={moveLeft}/>
             {/* <IconContext.Provider value={{ color: "black", size: "30px" }}>
               <RxDoubleArrowLeft onClick={moveLeft} />
             </IconContext.Provider> */}
@@ -79,6 +80,7 @@ function DetalleProp() {
               src={`https://back-inmobiliaria.vercel.app/api/inmuebles/imagenPropiedad/${inmueble.id_inmueble}`}
               alt=""
             />
+            <KeyboardArrowRightIcon onClick={moveRight}/>
             {/* <IconContext.Provider
               value={{ color: "black", size: "30px" }}
               onClick={moveRight}
@@ -107,19 +109,17 @@ function DetalleProp() {
             <div class="cardBottom">
               {inmueble.tipo_inmueble == "Oficina" || inmueble.tipo_inmueble == "LocalComercial" || inmueble.tipo_inmueble == "LocalIndustrial" ? <></> : <div className="desc">
                
-                <p class="cardText"><FaBed /><span>" "</span> {inmueble.dormitorios}</p>
+                <p class="cardText">
+                  <HotelIcon/>
+                   {inmueble.dormitorios}</p>
               </div>}
 
               <div className="desc">
-                {/* <IconContext.Provider value={{ color: "gray", size: "30px" }}>
-                  <RxRulerSquare />
-                </IconContext.Provider> */}
+              <StraightenIcon></StraightenIcon>
                 <p class="cardText">{inmueble.m2 + ` mts2`}</p>
               </div>
               <div className="desc1">
-                {/* <IconContext.Provider value={{ color: "gray", size: "30px" }}>
-                  <BiDollarCircle />
-                </IconContext.Provider> */}
+              <AttachMoneyIcon/>
                 <p className="cardPrice">{inmueble.precio}</p>
               </div>
             </div>
