@@ -1,7 +1,7 @@
 import React from "react";
-import { FaBed } from "@react-icons/all-files/fa/FaBed";
-import { MdAttachMoney } from "@react-icons/all-files/fa/MdAttachMoney";
-import { TfiRuler } from "@react-icons/all-files/fa/TfiRuler";
+import { FaBed } from "react-icons/fa";
+import { MdAttachMoney } from "@react-icons/fa";
+import { TfiRuler } from "react-icons/fa";
 
 // import { IconContext } from "react-icons";
 
@@ -34,19 +34,19 @@ function Card({
         <hr />
         <div class="cardBottom">
           {tipoInmueble == "Oficina" || tipoInmueble == "Terreno" || tipoInmueble == "LocalComercial" || tipoInmueble == "LocalIndustrial" ? <></> :
-            <div className="desc">
+            <div className="iconAndData">
              
                 <FaBed />
               
               <p class="cardText">{dormitorios}</p>
             </div>}
-          <div className="desc">
+          <div className="iconAndData">
             
               <TfiRuler />
             
             <p class="cardText">{metros2}</p>
           </div>
-          <div className="desc1">
+          <div className="iconAndData">
             
               <MdAttachMoney />
            

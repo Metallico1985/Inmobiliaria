@@ -79,7 +79,11 @@
   font-size: 25px;
   font-weight: 600;
 }
-
+.iconAndData{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*////////////////////////////////////////MEDIA//////////////////////////////////////////////////////////*/
 
 @media (max-width: 1024px){

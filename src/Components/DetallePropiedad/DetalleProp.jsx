@@ -107,7 +107,7 @@ function DetalleProp() {
             <div class="cardBottom">
               {inmueble.tipo_inmueble == "Oficina" || inmueble.tipo_inmueble == "LocalComercial" || inmueble.tipo_inmueble == "LocalIndustrial" ? <></> : <div className="desc">
                
-                <p class="cardText"><FaBed />{inmueble.dormitorios}</p>
+                <p class="cardText"><FaBed /><span>" "</span> {inmueble.dormitorios}</p>
               </div>}
 
               <div className="desc">
