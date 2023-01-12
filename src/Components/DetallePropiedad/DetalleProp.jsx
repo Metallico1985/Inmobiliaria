@@ -72,21 +72,14 @@ function DetalleProp() {
           <div className="cardImgContainer">
 
             <KeyboardArrowLeftIcon onClick={moveLeft}/>
-            {/* <IconContext.Provider value={{ color: "black", size: "30px" }}>
-              <RxDoubleArrowLeft onClick={moveLeft} />
-            </IconContext.Provider> */}
+
             <img
               className="cardImg"
               src={`https://back-inmobiliaria.vercel.app/api/inmuebles/imagenPropiedad/${inmueble.id_inmueble}`}
               alt=""
             />
             <KeyboardArrowRightIcon onClick={moveRight}/>
-            {/* <IconContext.Provider
-              value={{ color: "black", size: "30px" }}
-              onClick={moveRight}
-            >
-              <RxDoubleArrowRight onClick={moveRight} />
-            </IconContext.Provider> */}
+           
           </div>
           <div class="textFlex">
             <div className="operacionYref">
@@ -109,7 +102,7 @@ function DetalleProp() {
             <div class="cardBottom">
               {inmueble.tipo_inmueble == "Oficina" || inmueble.tipo_inmueble == "LocalComercial" || inmueble.tipo_inmueble == "LocalIndustrial" ? <></> : <div className="desc">
                
-                <p class="cardText">
+                <p class="desc">
                   <HotelIcon/>
                    {inmueble.dormitorios}</p>
               </div>}
@@ -118,7 +111,7 @@ function DetalleProp() {
               <StraightenIcon></StraightenIcon>
                 <p class="cardText">{inmueble.m2 + ` mts2`}</p>
               </div>
-              <div className="desc1">
+              <div className="desc">
               <AttachMoneyIcon/>
                 <p className="cardPrice">{inmueble.precio}</p>
               </div>
