@@ -42,7 +42,13 @@ margin-right: 1rem;
   box-shadow: rgb(80, 80, 80) 0px 20px 30px -10px;
   transform: scale(1);
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .nav_logo img {
+    width: 25%;
+    margin-top: 0;
+  }
+}
+@media (max-width: 850px) {
   .nav_items{
       position: absolute;
       top: 8rem;

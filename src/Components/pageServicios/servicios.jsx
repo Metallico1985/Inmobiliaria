@@ -20,7 +20,7 @@ const Servicios = () => {
           <p>Informate y accede a tu prestamo</p>
           <p className="pServicios">
             <a class="btn btn-default" href="#first" role="button">
-              View details &raquo;
+            Más información &raquo;
             </a>
           </p>
         </div>
@@ -35,8 +35,8 @@ const Servicios = () => {
           <h2>Alquileres</h2>
           <p>Consulta sobre nuestros alquileres</p>
           <p className="pServicios">
-            <a class="btn btn-default" href="#first" role="button">
-              View details &raquo;
+            <a class="btn btn-default" href="#second" role="button">
+            Más información &raquo;
             </a>
           </p>
         </div>
@@ -51,8 +51,8 @@ const Servicios = () => {
           <h2>Ventas</h2>
           <p>Los mejores precios en ventas</p>
           <p>
-            <a class="btn btn-default" href="#second" role="button">
-              View details &raquo;
+            <a class="btn btn-default" href="#third" role="button">
+            Más información &raquo;
             </a>
           </p>
         </div>
@@ -67,8 +67,8 @@ const Servicios = () => {
           <h2>Tasacciones</h2>
           <p>Comunicate con nuestro equipo y responderemos tus preguntas</p>
           <p className="pServicios">
-            <a class="btn btn-default" href="#third" role="button">
-              View details &raquo;
+            <a class="btn btn-default" href="#fourth" role="button">
+              Más información &raquo;
             </a>
           </p>
         </div>
@@ -125,7 +125,7 @@ const Servicios = () => {
 
       <hr class="divider" />
 
-      <div class="containersSections" id="second">
+      <div class="containersSections" id="third">
         <div class="textSection">
           <h2 class="featurette-heading">
             Ventas <span class="text-muted"></span>
@@ -147,7 +147,7 @@ const Servicios = () => {
 
       <hr class="divider" />
 
-      <div class="containersSections" >
+      <div class="containersSections" id="fourth">
         <div class="textSection">
           <h2 class="featurette-heading">
             Tasacciones,{" "}

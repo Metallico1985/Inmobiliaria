@@ -66,15 +66,23 @@ h2 {
 @media(max-width: 1000px){
   .infoImgSuperiorContainer {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .infoImgSuperior {
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 1rem;
   }
   .img-rounded.img-responsive.center-block{
     display: none;
   }
   .img-circleB{
-    width: 60%;
+    width: 20%;
   }
   .textSection{
     width: 100vw;
@@ -88,7 +96,7 @@ h2 {
 }
 @media(max-width: 768px){
   .img-circleB{
-    width: 70%;
+    width: 22%  
   }
 }
 @media(max-width: 450px){
@@ -98,6 +106,6 @@ h2 {
 }
 @media(max-width: 320px){
   .img-circleB{
-    width: 60%;
+    width: 45%;
   }
 }

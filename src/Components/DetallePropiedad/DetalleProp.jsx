@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { listarInmuebles } from "../../API/Rule_inmuebles";
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
-// import { FaBed } from "react-icons/fa";
+import { FaBed } from "react-icons/fa";
 // import { BiDollarCircle } from "react-icons/Bi";
 // import { RxRulerSquare } from "react-icons/Rx";
 // import { IconContext } from "react-icons";
@@ -106,10 +106,8 @@ function DetalleProp() {
             </div>
             <div class="cardBottom">
               {inmueble.tipo_inmueble == "Oficina" || inmueble.tipo_inmueble == "LocalComercial" || inmueble.tipo_inmueble == "LocalIndustrial" ? <></> : <div className="desc">
-                {/* <IconContext.Provider value={{ color: "gray", size: "30px" }}>
-                  <FaBed />
-                </IconContext.Provider> */}
-                <p class="cardText">{inmueble.dormitorios}</p>
+               
+                <p class="cardText"><FaBed />{inmueble.dormitorios}</p>
               </div>}
 
               <div className="desc">

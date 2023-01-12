@@ -19,7 +19,7 @@ const Empresa = () => {
           <p>Lideres en el sector inmobiliario</p>
           <p>
             <a class="btn btn-default" href="#first" role="button">
-              View details &raquo;
+            Más información &raquo;
             </a>
           </p>
         </div>
@@ -35,7 +35,7 @@ const Empresa = () => {
           <p>Fundada el 28 de septiembre de 1996.</p>
           <p>
             <a class="btn btn-default" href="#second" role="button">
-              View details &raquo;
+            Más información &raquo;
             </a>
           </p>
         </div>
@@ -51,7 +51,7 @@ const Empresa = () => {
           <p>Ofrecerle al cliente un comfort unico.</p>
           <p>
             <a class="btn btn-default" href="#third" role="button">
-              View details &raquo;
+            Más información &raquo;
             </a>
           </p>
         </div>
@@ -73,7 +73,7 @@ const Empresa = () => {
             </strong>
           </p>
         </div>
-        <div class="imageSectionContainer">
+        <div class="imageSectionContainer" id="first">
           <img
             class="img-rounded img-responsive center-block "
             src="https://www.grupoioe.es/wp-content/uploads/2021/12/Fortalezas-de-una-empresa-mejorar.jpg"
@@ -100,7 +100,7 @@ const Empresa = () => {
             </strong>
           </p>
         </div>
-        <div class="imageSectionContainer">
+        <div class="imageSectionContainer" id="second">
           <img
             class="img-rounded img-responsive center-block"
             src="Images/laspiedras.jpg"
@@ -125,7 +125,7 @@ const Empresa = () => {
             clientes la busqueda y sus pretensiones.
           </p>
         </div>
-        <div class="imageSectionContainer">
+        <div class="imageSectionContainer" id="third">
           <img
             class="img-rounded img-responsive center-block"
             src="https://img.freepik.com/foto-gratis/hermoso-elegante-personal-sentado-oficina-escritorio-usando-computadora-portatil-escuchando-colega_146671-15600.jpg?w=1380&t=st=1673452815~exp=1673453415~hmac=4ae5962ed213546d6e9871ef9618a8989c59babbb5d0e65f579afe59ce470fc5"
