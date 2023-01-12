@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBed,MdAttachMoney,RxRulerSquare } from "react-icons/fa";
+import { FaBed,MdAttachMoney,TfiRuler } from "react-icons/fa";
 
 // import { IconContext } from "react-icons";
 
@@ -40,7 +40,7 @@ function Card({
             </div>}
           <div className="desc">
             
-              <RxRulerSquare />
+              <TfiRuler />
             
             <p class="cardText">{metros2}</p>
           </div>
