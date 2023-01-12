@@ -1,5 +1,7 @@
 import React from "react";
 import StraightenIcon from '@mui/icons-material/Straighten';
+import HotelIcon from '@mui/icons-material/Hotel';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import "./Card.css";
 
 function Card({
@@ -31,18 +33,17 @@ function Card({
           {tipoInmueble == "Oficina" || tipoInmueble == "Terreno" || tipoInmueble == "LocalComercial" || tipoInmueble == "LocalIndustrial" ? <></> :
             <div className="iconAndData">
              
-             {/* <FontAwesomeIcon icon="fa-solid fa-bed" /> */}
+             <HotelIcon/>
               
               <p class="cardText">{dormitorios}</p>
             </div>}
           <div className="iconAndData">
-          {/* <FontAwesomeIcon icon="fa-regular fa-ruler-triangle" /> */}
           <StraightenIcon></StraightenIcon>
             <p class="cardText">{metros2}</p>
           </div>
           <div className="iconAndData">
             
-          {/* <FontAwesomeIcon icon="fa-solid fa-circle-dollar" /> */}
+         <AttachMoneyIcon/>
            
             <p class="cardPrice">{precio}</p>
           </div>
