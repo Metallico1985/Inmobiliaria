@@ -1,7 +1,6 @@
 import React from "react";
-import { FaBed } from "react-icons/fa";
-import { BiDollarCircle } from "react-icons/Bi";
-import { RxRulerSquare } from "react-icons/Rx";
+import { FaBed,MdAttachMoney,RxRulerSquare } from "react-icons/fa";
+
 // import { IconContext } from "react-icons";
 
 import "./Card.css";
@@ -47,7 +46,7 @@ function Card({
           </div>
           <div className="desc1">
             
-              <BiDollarCircle />
+              <MdAttachMoney />
            
             <p class="cardPrice">{precio}</p>
           </div>
