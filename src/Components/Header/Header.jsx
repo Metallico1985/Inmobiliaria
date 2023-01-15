@@ -33,7 +33,7 @@ function Header() {
         </div> :
           <div className="btnLogin">
             <button onClick={() => navigate("/login")}>INICIAR SESIÓN</button>
-            <button onClick={handleOpen} >ADMINISTRAR</button
+            <button onClick={handleOpen} >ADMINISTRAR</button>
           </div>}
       </div>
       </div>
