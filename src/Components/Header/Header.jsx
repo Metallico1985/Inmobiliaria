@@ -27,13 +27,14 @@ function Header() {
         <Link to="/Contacto">Contacto</Link>
         <div className="btnsContainer">
         {tokenActivo ? <div className="btnAdmin">
-          {/* <button onClick={handleOpen} >ADMINISTRAR</button> */}
+          {/* <button onClick={handleOpen} >ADMINISTRAR</button>
           <button onClick={closeSesion} >CERRAR SESIÓN</button>
-          <ModalAdm open={open} close={handleClose} />
+          <ModalAdm open={open} close={handleClose} /> */}
         </div> :
           <div className="btnLogin">
             <button onClick={() => navigate("/login")}>INICIAR SESIÓN</button>
             <button onClick={handleOpen} >ADMINISTRAR</button>
+            <ModalAdm open={open} close={handleClose} />
           </div>}
       </div>
       </div>
