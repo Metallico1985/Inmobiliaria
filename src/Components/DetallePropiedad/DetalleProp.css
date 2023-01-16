@@ -93,6 +93,13 @@
   font-size: 30px;
   font-weight: bolder;
 }
+@media(min-width: 2000px){
+  .textFlex {
+    margin-top: 15%;
+   height: 50%;
+   width: 90%;
+  }
+}
 @media(max-width:1368px){
   .mainDetalle {
     height: 100vh;

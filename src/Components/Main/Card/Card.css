@@ -93,4 +93,7 @@
   .box {
     transition: none;
   }
+  .box:hover{
+    transform: none;
+  }
 }
