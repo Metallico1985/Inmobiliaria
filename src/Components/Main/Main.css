@@ -54,7 +54,7 @@
     width: 70%;
   }
 }
-@media(max-width: 1920){
+@media(max-width: 1920px){
   .gridContainer {
     width: 60%;
   }
