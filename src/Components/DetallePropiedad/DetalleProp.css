@@ -134,7 +134,7 @@
 }
 @media(max-width: 450px){
   .cardImgContainer {
-    width: 50%;
-    height: 35%;
+    width: 40%;
+    height: 25%;
   }
 }
