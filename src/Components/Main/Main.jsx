@@ -32,7 +32,7 @@ function Main() {
   };
 
   return (
-    <div className="mainContainer">
+    <div className="mainContainerMain">
       <Header />
       <Backdrop
         sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}

@@ -13,11 +13,11 @@
   margin-bottom: 5rem;
 }
 
-.mainContainer {
+.mainContainerMain {
   background-color: buttonface;
 }
 
-.mainContainer h2 {
+.mainContainerMain h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,23 +25,23 @@
 
 }
 
-.mainContainer a {
+.mainContainerMain a {
   text-decoration: none;
   color: black;
 
 }
 
-.mainContainer a:visited {
+.mainContainerMain a:visited {
   text-decoration: none;
   color: black;
 }
 
-.mainContainer a:hover {
+.mainContainerMain a:hover {
   text-decoration: none;
   color: black;
 }
 
-.mainContainer a:link {
+.mainContainerMain a:link {
   text-decoration: none;
 }
 

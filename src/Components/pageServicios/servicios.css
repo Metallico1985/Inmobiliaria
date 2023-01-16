@@ -43,6 +43,7 @@ image{
 }
 .containersSections{
   display: flex;
+  justify-content: space-around;
 }
 h2 {
   justify-content: center;
