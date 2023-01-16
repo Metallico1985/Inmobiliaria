@@ -49,14 +49,14 @@
   text-align: center;
 }
 /*/////////////////////////////////MEDIA//////////////////////////////////////////////*/
-@media(max-width: 2560px){
+/* @media(max-width: 2560px){
   .gridContainer {
     width: 70%;
   }
-}
+} */
 @media(max-width: 1920){
   .gridContainer {
-    width: 75%;
+    width: 60%;
   }
 }
   @media(max-width: 1024px){
