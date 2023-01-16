@@ -21,11 +21,11 @@ function Card({
         <p class="Operacion">{operacion}</p>
       </div>
       <div class="textFlexCard">
-        <div className="cardRight">
-          <p class="cardLocation1">{tipoInmueble}</p>
+        <div className="cardRight"> 
+          <p class="cardLocation1">{`tipo Inmueble: ${tipoInmueble}`}</p>
           <div className="location">
-            <p class="cardLocation1">{barrio}</p>
-            <p class="cardLocation1">{departamento}</p>
+            <p class="cardLocation1">{`Barrio: ${barrio}`}</p>
+            <p class="cardLocation1">{`Departamento: ${departamento}`}</p>
           </div>
         </div>
         <hr />
