@@ -8,8 +8,8 @@
   width: 70%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  gap: 2rem;
+  /* grid-template-rows: auto; */
+  gap: 1rem;
   margin-bottom: 5rem;
 }
 
