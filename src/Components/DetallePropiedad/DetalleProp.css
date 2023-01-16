@@ -118,7 +118,7 @@
     height: 35%;
   }
   .textFlex {
-    margin: 20% 0;
+    margin: 15% 0;
    height: 50%;
    width: 90%;
   }
@@ -146,3 +146,10 @@
     width: 30rem;
   }
 }
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+  .textFlex {
+    margin: 25% 0;
+   height: 50%;
+   width: 90%;
+  }
+  }
