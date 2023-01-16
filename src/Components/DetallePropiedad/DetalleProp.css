@@ -102,25 +102,22 @@
 }
 @media(max-width:1368px){
   .mainDetalle {
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     background-color: buttonface;
     background-image:none;
   }
   .cardDetalle {
-    display: block;
-   width: 100%;
-   height: 80%;
+    flex-direction: column;
+   width: 90%;
   }
   .cardImgContainer {
-    
     width: 90%;
     height: 35%;
   }
   .textFlex {
-    margin: 15% 0;
-   height: 50%;
-   width: 90%;
+    margin: 0 auto;
+    width: 90%;
   }
   .operacionYref {
     justify-content: space-between;
@@ -146,10 +143,10 @@
     width: 30rem;
   }
 }
-@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+/* @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
   .textFlex {
-    margin: 25% 0;
+    margin: 20%;
    height: 50%;
    width: 90%;
   }
-  }
+  } */
