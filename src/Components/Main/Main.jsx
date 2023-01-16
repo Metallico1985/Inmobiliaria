@@ -44,7 +44,7 @@ function Main() {
       {!propiedades.length ? <div><h2 className="explora">Por el momento no contamos con propiedades que cumplan estos requisitos...</h2></div> :
         <>
           <h2 className="explora">Explora nuestros inmuebles</h2>
-          <div className="flexGridContainer">
+          <div className="gridContainerFlex">
             <div className="gridContainer">
               {propiedades.map((inmueble) => (
                 <div className="grid">
