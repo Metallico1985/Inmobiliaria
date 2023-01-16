@@ -108,8 +108,8 @@
   }
   .cardImg {
     margin: 0 auto;
-    height: auto;
-    width: 100%;
+    height: 400px;
+    width: 600px;
   }
   .textFlex {
     margin-top: 15%;
