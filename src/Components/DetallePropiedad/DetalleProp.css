@@ -90,7 +90,7 @@
   font-size: 30px;
   font-weight: bolder;
 }
-@media(max-width:768px){
+@media(max-width:1024px){
   .mainDetalle {
     height: 100vh;
     flex-direction: column;
