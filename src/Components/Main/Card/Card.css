@@ -49,7 +49,7 @@
   margin-left: 0.3rem;
 }
 
-.cardLocation1 {
+.cardDatos p{
   margin: 0;
   font-weight: bolder;
 }
@@ -66,7 +66,7 @@
   align-items: center;
 }
 
-.cardRight {
+.cardTipo {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
