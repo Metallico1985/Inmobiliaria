@@ -22,10 +22,10 @@ function Card({
       </div>
       <div class="textFlexCard">
         <div className="cardTipo"> 
-          <p class="cardDatos">"Tipo inmueble"</p><span>{tipoInmueble}</span>
+          <p class="cardDatos">Tipo inmueble: </p>{tipoInmueble}
           <div className="location">
-            <p class="cardDatos">"Barrio:"</p><span>{barrio}</span>
-            <p class="cardDatos">"Departamento: "</p><span>{departamento}</span>
+            <p class="cardDatos">Barrio: </p>{barrio}
+            <p class="cardDatos">Departamento: </p>{departamento}
           </div>
         </div>
         <hr />
