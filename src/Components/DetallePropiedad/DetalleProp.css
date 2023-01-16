@@ -92,7 +92,7 @@
   font-size: 30px;
   font-weight: bolder;
 }
-@media(max-width:1024px){
+@media(max-width:1368px){
   .mainDetalle {
     height: 100vh;
     flex-direction: column;
@@ -107,11 +107,6 @@
   .cardImgContainer {
     width: 90%;
     height: 35%;
-  }
-  .cardImg {
-    margin: 0 auto;
-    height: 400px;
-    width: 600px;
   }
   .textFlex {
     margin-top: 15%;
@@ -134,7 +129,11 @@
 }
 @media(max-width: 450px){
   .cardImgContainer {
-    width: 20%;
-    height: 5%;
+    width: 90%;
+    height: 20%;
+  }
+  .cardImg{
+    height: 15rem;
+    width: 30rem;
   }
 }
