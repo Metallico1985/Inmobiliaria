@@ -20,7 +20,7 @@ function Card({
         <img class="imgInmueble" src={image} alt="" />
         <p class="Operacion">{operacion}</p>
       </div>
-      <div class="textFlex">
+      <div class="textFlexCard">
         <div className="cardRight">
           <p class="cardLocation1">{tipoInmueble}</p>
           <div className="location">
