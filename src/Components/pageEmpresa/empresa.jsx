@@ -10,7 +10,7 @@ const Empresa = () => {
         <div class="imgInfoContainer">
           <img
             class="img-circle"
-            src="/Images/logoInmobiliaria.png"
+            src="/Images/nuevoLogoCasa.png"
             alt="Globe"
             width="140"
             height="140"
@@ -32,7 +32,7 @@ const Empresa = () => {
             height="140"
           />
           <h2>Fundacion</h2>
-          <p>Fundada el 28 de septiembre de 1996.</p>
+          <p>Fundada el 28 de septiembre de 1990.</p>
           <p>
             <a class="btn btn-default" href="#second" role="button">
             Más información &raquo;
@@ -66,9 +66,9 @@ const Empresa = () => {
             Nuestra empresa esta conformada por los mejores profesionales de
             Uruguay, brindadole asi a todos nuestros clientes una tranquilidad a
             la hora de poder hacer un cambio en sus vidas. Toma la mejor
-            decisión con Inmobilaria Rossi.<br></br>
+            decisión con Inmobilaria.<br></br>
             <strong>
-              ¡Te esperamos con la mejor atencion, como desde 1996, siendo
+              ¡Te esperamos con la mejor atencion, como desde 1990, siendo
               lideres en el mercado!
             </strong>
           </p>
@@ -90,8 +90,8 @@ const Empresa = () => {
             Nuestros inicios <span class="text-muted">junto a ustedes.</span>
           </h2>
           <p class="lead">
-            La empresa Inmobiliaria Rossi fue fundanda en 1990, de la mano de
-            Henry Edison Rossi Pasina. Este proyecto tuvo su punto clave en la
+            La empresa Inmobiliaria fue fundanda en 1990, de la mano de
+            "YO". Este proyecto tuvo su punto clave en la
             seriedad, compromiso e impronta particular.{" "}
             <strong>
               Contando con mas de 30 años en el area, confirmando nuestro

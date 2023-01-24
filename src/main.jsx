@@ -8,7 +8,6 @@ import DetalleProp from "./Components/DetallePropiedad/DetalleProp";
 import Hero from "./Components/Hero/Hero";
 import Main from "./Components/Main/Main";
 import Contacto from "./Components/Contacto/Contacto";
-import Estudio from "./Components/Estudio/Estudio";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Empresa from "./Components/pageEmpresa/empresa";
@@ -71,10 +70,6 @@ const router = createBrowserRouter([
   {
     path: "/contacto",
     element: <Contacto />,
-  },
-  {
-    path: "/estudio",
-    element: <Estudio />,
   },
   {
     path: "/empresa",

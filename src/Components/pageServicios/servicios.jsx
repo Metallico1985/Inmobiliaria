@@ -82,7 +82,7 @@ const Servicios = () => {
             Prestamos <span class="text-muted">Inmobiliarios</span>
           </h2>
           <p class="lead">
-            Inmobiliaria Rossi cuenta con los mejores prestamos hipotecarios,
+            Inmobiliaria cuenta con los mejores prestamos hipotecarios,
             contando con destacados profesionales en la materia, los cuales se
             encargaran de brindar el apoyo necesario para su objetivo.
             <br></br>
@@ -104,7 +104,7 @@ const Servicios = () => {
           <h2 class="featurette-heading">
             Alquileres{" "}
             <span class="text-muted">
-              15% off en impuestos hasta el 28 de Febrero de2023.
+              10% off en impuestos hasta el 28 de Febrero de2023.
             </span>
           </h2>
           <p class="lead">
@@ -150,7 +150,7 @@ const Servicios = () => {
       <div class="containersSections" id="fourth">
         <div class="textSection">
           <h2 class="featurette-heading">
-            Tasacciones,{" "}
+            Tasaciones,{" "}
             <span class="text-muted">comunicate con nuestro equipo. </span>
           </h2>
           <p class="lead">

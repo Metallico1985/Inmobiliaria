@@ -11,20 +11,20 @@ function Footer() {
           <IconContext.Provider value={{ color: "red", size: "25px" }}>
             <SlCallIn />
           </IconContext.Provider>
-          <span>Contactanos (22)2365.6520 - 099867688</span>
+          <span>Contactanos 123 456 789</span>
         </section>
         <section>
           <IconContext.Provider value={{ color: "red", size: "25px" }}>
             <SlEnvolope />
           </IconContext.Provider>
-          <span>contacto@inmobiliariarossi.com.uy</span>
+          <span>contacto@inmobiliaria.com.uy</span>
         </section>
 
         <section>
           <IconContext.Provider value={{ color: "red", size: "30px" }}>
             <SlLocationPin />
           </IconContext.Provider>
-          <span>Rivera 641 | Las Piedras | Uruguay</span>
+          <span>Ruta 48 | Las Brujas | Uruguay</span>
         </section>
       </div>
 
@@ -33,7 +33,7 @@ function Footer() {
 
       <section class="copyright">
         <p>Desde 1990, junto a usted.</p>
-        <p>Copyright © 2023 Inmobiliaria Rossi - All rights reserved</p>
+        <p>Copyright © 2023 Inmobiliaria - All rights reserved</p>
       </section>
     </footer>
   );
